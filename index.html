@@ -633,7 +633,7 @@
                 *Made of love, source code, and an unreasonable number of merge conflicts.*
             </p>
             <p style="margin-bottom: 8px;">
-                Believe in Steven. • Trust the Gems. • <span class="footer-checksum" id="checksumBtn">Verify the checksums.</span>
+                Believe in Steven. • Trust the Gems. • <span class="footer-checksum" id="mockChecksum">Verify the checksums.</span>
             </p>
             <p style="font-size: 11px; color: #5f4e7a; font-family: 'JetBrains Mono', monospace;">
                 Project Crystal Open Source Initiative. Compatible with Android 5.1+ (API 21-23) WebViews.
@@ -646,11 +646,11 @@
 
     <!-- Legacy JavaScript (ES5 Compatible) -->
     <script>
-        var checksumBtn = document.getElementById('checksumBtn');
+        var mockChecksum = document.getElementById('mockChecksum');
         var toast = document.getElementById('toastNotification');
 
-        if (checksumBtn) {
-            checksumBtn.onclick = function() {
+        if (mockChecksum) {
+            mockChecksum.onclick = function() {
                 var checksumText = "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855";
                 
                 var dummyInput = document.createElement('input');
